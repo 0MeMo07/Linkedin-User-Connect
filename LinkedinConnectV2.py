@@ -27,7 +27,7 @@ driver.find_element(By.ID, 'username').send_keys(f'{email}')
 word = driver.find_element(By.ID, 'password')
 word.send_keys(f'{password}')
 word.submit()
-time.sleep(18)
+time.sleep(6)
 
 keywords = f"{keywords}"
 
