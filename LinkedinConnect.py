@@ -44,7 +44,7 @@ for page in range(1, pages + 1):
     while True:
         try:
             connections = driver.find_elements(By.XPATH, f'/html/body/div[5]/div[3]/div[2]/div/div[1]/main/div/div/div[2]/div/ul/li[{index+1}]/div/div/div[3]/div/button')
-            time.slepp(2)
+            time.sleep(2)
             if not connections:
                 print('No more buttons found on the page.')
                 break
