@@ -22,6 +22,8 @@ cd /path/to/Linkedin-User-Connect
 5. Run the Python script:
 ```bash
 python LinkedinConnect.py
+or
+python LinkedinConnectV2.py
 ```
 6. The automation process will start, and connection requests will be sent to the LinkedIn profiles.
 
